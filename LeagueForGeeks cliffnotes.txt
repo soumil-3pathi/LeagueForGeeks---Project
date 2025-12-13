@@ -44,4 +44,9 @@ COMPONENT PLANNING:
 - 3rd flexbox for item menu, with separate child div's for item categories
 
 
+
 3) JS: 
+a) set up variables for registering button clicks of the menu items
+b) set up variables for tracking initially entered amount, subtotal of added items, and current balance available (initial - subtotal)
+c) corner cases for the inventory bill
+d) appending item name, price and images to the newly created inventory list
