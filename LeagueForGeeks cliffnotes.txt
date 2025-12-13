@@ -1,0 +1,47 @@
+LeagueForGeeks cliffnotes:
+1) Problem statement: Pokemart budget planner)
+
+2) what it should contain: 
+
+1. Buy Item (Add Expense)
+Create a small form where a Trainer enters:
+Item Name
+Cost in ₹
+When submitted, the item should appear in the list of purchases.
+
+2. Inventory List (Show All Items Bought)
+Display a list of every item added.
+ Each entry shows:
+Item name
+Cost
+
+3. Wallet Balance (Total Spent)
+- Automatically calculate and show the total PokéDollars spent based on the inventory list.
+
+2A) Bonus features: 
+- Pocket Sorting: Filter items by category (Healing, Battle Items, etc.)
+- Item Exchange: Edit or delete any entry
+- Stat Graph: Show a simple bar chart comparing spending
+
+
+COMPONENT PLANNING: 
+1) HTML:
+->intro
+- project title (h1)
+- overview (desc)
+
+-> form
+- add item - with delete button after each item
+- Each item consists of label (item name) with cost (in rupees)
+- after list, contains an element which has subtotal (JS functionality)
+
+-> ITEM MENU - a separate list which contains pokemart items along with their prices for adding to inventory.
+- contains parent ol (item categories -> healing, pokeballs, etc) and child ul's for listing actual items with their prices
+
+2) CSS:
+- 1st flexbox which contains title + desc
+- 2nd flexbox which contains actual form operations
+- 3rd flexbox for item menu, with separate child div's for item categories
+
+
+3) JS: 

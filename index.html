@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTOTYPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="master">
+            <div class="intro">
+        <div class="opening"><img src="dragonite.gif" id="gif" alt="">&nbsp;&nbsp;&nbsp;<h1 style="color: white"> Welcome to the Pokemart Planner </h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="mewtwo.gif" id="gif" alt=""></div>
+       <div class="opening2">
+        <h1 style="text-align: center; "> ◓ Overview ◓</h1>
+        <p>The PokéMart Budget Planner is a web-based tool designed to help Pokémon trainers efficiently manage their spending on essential
+             supplies! Inspired by the classic Pokémon gameplay experience, this application allows trainers to track their purchases, monitor
+             their budget, and maintain financial discipline while stocking up on items for their journey.
+             All transactions are calculated in PokeDollars (₽)</p>
+        <p>
+            This application not only serves as a practical tool for Pokémon gameplay but also introduces fundamental concepts of:<br>
+
+        1&#41;Budget management and expense tracking<br>
+
+        2&#41;Web development with client-side data persistence<br>
+
+        3&#41;User interface design and form handling<br>
+
+        4&#41;Real-time calculations and data updates<br><br>
+
+        The PokéMart Budget Planner successfully combines nostalgic Pokémon elements with practical budgeting functionality, creating an engaging
+         tool that enhances the gaming experience while promoting responsible spending habits in the Pokémon universe.
+        </p>
+    </div>
+    <br>
+    <div class="outer1">
+        <img src="ambipom.gif" id="gif" alt="">&nbsp;&nbsp;&nbsp;
+    <div class="budget">
+        <form action="">
+            <label for="init">Enter Initial Amount to Start Browsing: </label>
+            <input type="text" id="init" placeholder="initial amount (₽)">
+            <button id="forInit" type="button"> Enter </button>
+        </form>
+    </div>&nbsp;&nbsp;&nbsp;
+    <img src="garchomp-mega.gif" id="gif" alt=""></div>
+    <br>
+    <div class="menu">
+    <div class="box1">
+        <div class="inner"><h2 style="color: aliceblue;">Healing items</h2><br>
+            <ul>
+                <li><p>Potion - ₽100 </p>&nbsp;<img src="download.jpg" alt="potion"></li><button class="add" id="potion"><b> Add item</b></button>
+                <li><p>Super Potion - ₽200</p>&nbsp;<img src="superpotion.jpg" alt="super potion"></li><button class="add" id="spotion"><b> Add item</b></button>
+                <li><p>Hyper Potion - ₽300 </p>&nbsp;<img src="hyperpotion.jpg" alt="hyper potion"></li><button class="add" id="hpotion"><b> Add item</b></button>
+            </ul>
+        </div>
+        <div class="inner"><h2 style="color: aliceblue;">Pokeballs</h2><br>
+            <ul>
+                <li><p>Pokeball - ₽100 </p>&nbsp;<img src="pokeball.png" alt="Pokeball"></li><button class="add" id="pball"><b> Add item</b></button>
+                <li><p>Great Ball - ₽200 </p>&nbsp;<img src="greatball.png" alt="great ball"></li><button class="add" id="gball"><b> Add item</b></button>
+                <li><p>Ultra Ball - ₽300</p>&nbsp; <img src="ultra ball.jpg" alt="ultra ball"></li><button class="add" id="uball"><b> Add item</b></button>
+            </ul>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="inner"><h2 style="color: aliceblue;">Status Items</h2><br>
+            <ul>
+                <li><p>Burn heal - ₽50 </p>&nbsp;<img src="burn heal.jpg" alt="burn heal"></li><button class="add" id="bheal"><b> Add item</b></button>
+                <li><p>Paralyse heal - ₽50 </p>&nbsp;<img src="paralyse heal.jpg" alt="paralyse heal"></li><button class="add" id="pheal"><b> Add item</b></button>
+                <li><p>Full Heal - ₽100 </p>&nbsp;<img src="full heal.png" alt="full heal"></li><button class="add" id="fheal"><b> Add item</b></button>
+            </ul>
+        </div>
+        <div class="inner"><h2 style="color: aliceblue;">Miscellaneous</h2><br>
+            <ul>
+                <li><p>Escape Rope - ₽250 </p>&nbsp;<img src="escape rope.jpg" alt="escape rope"></li><button class="add" id="erope"><b> Add item</b></button>
+                <li><p>Repel - ₽50 </p>&nbsp;<img src="super repel.jpg" alt="repel"></li><button class="add" id="repel"><b> Add item</b></button>
+                <li><p>Super Repel - ₽100 </p>&nbsp;<img src="repel.png" alt="super repel"></li><button class="add" id="srepel"><b> Add item</b></button>
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+<div class="lastContainer">
+    <div class="inventory">
+    <h2 style="color: white;">◓ Your Inventory ◓</h2>
+    <ul class="invent-list"></ul>
+    <div class="subtotal">
+        <h3>Subtotal: ₽<span class="subtotal-amount">0</span></h3>
+    </div>
+    </div>
+</div>
+    <script src="app3.js"></script>
+</body>
+</html>
